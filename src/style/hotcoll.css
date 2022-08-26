@@ -1,0 +1,72 @@
+.hotcoll-navbar {
+  width: 100%;
+  border-bottom: 1px white solid;
+  padding: 10px 80px;
+}
+
+.hotcoll-navbar > a {
+  text-decoration: none;
+}
+
+.hotcoll-navbar > a > h1 {
+  color: white;
+  font-size: 12px;
+}
+
+.hotcoll-navbar > a > h1:hover {
+  color: yellow;
+  transition: 1s;
+}
+
+.hotcoll-card-container {
+  margin: 50px 80px;
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.hotcoll-card {
+  background-color: rgba(4, 4, 41, 1);
+  width: 280px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  height: 350px;
+  transition: 1s;
+}
+
+.hotcoll-card:hover {
+  margin-bottom: 20px;
+  margin-right: 10px;
+  transition: 1s;
+  box-shadow: 5px 10px 10px rgb(106, 187, 197);
+}
+
+#wallImg {
+  width: 280px;
+  position: relative;
+}
+
+#profileImg {
+  position: absolute;
+  left: 105px;
+  top: 160px;
+  border: 5px solid rgba(4, 4, 41, 1);
+  border-radius: 50px;
+}
+
+.hotcoll-card__text {
+  text-align: center;
+  height: 150px;
+  padding: 60px;
+}
+
+.hotcoll-card__text > h1 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.hotcoll-card__text > p {
+  font-size: 12px;
+  font-weight: 400;
+}

@@ -1,0 +1,100 @@
+/* tending */
+.tending-navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px white solid;
+  padding: 10px 80px;
+}
+
+.tending-navbar__text {
+  display: flex;
+}
+
+.tending-navbar__text > a {
+  text-decoration: none;
+}
+
+.tending-navbar__text > a > h2:hover {
+  color: yellow;
+
+  transition: 1s;
+}
+
+.tending-navbar__text > img {
+  height: 10px;
+  margin: auto;
+  padding-left: 10px;
+}
+
+/* card tending */
+.tending-card-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 80px 100px 80px;
+  height: 600px;
+}
+
+.tending-card {
+  padding: 20px;
+  background-color: rgba(4, 4, 41, 1);
+  width: 380px;
+  height: 445px;
+  color: white;
+  transition: 1s;
+  text-decoration: none;
+}
+
+.tending-card:hover {
+  margin-bottom: 20px;
+  margin-right: 10px;
+  transition: 1s;
+  box-shadow: 5px 10px 10px rgb(173, 185, 59);
+}
+
+.tending-card__text > h1 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+.tending-card__text > h2 {
+  color: #6d6fdc;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.tending-card__text > h3 {
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.list-time {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px white solid;
+  padding-top: 10px;
+}
+
+.time {
+  width: 110px;
+}
+
+.time > img {
+  float: left;
+  margin-right: 10px;
+}
+
+.time > p {
+  font-size: 14px;
+}
+
+.list-time > p {
+  font-size: 14px;
+}
+/* end tending */

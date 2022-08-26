@@ -1,0 +1,50 @@
+.footer {
+  margin: 0 80px;
+  color: white;
+}
+
+.card-footer {
+  height: 425px;
+  background-image: url("/public/Image/footerBg.png");
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  width: 550px;
+  margin: 50px 50px;
+}
+
+.content-text > h1 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.content-text > p {
+  margin-top: 13px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 13px;
+}
+
+#form {
+  width: 327px;
+  height: 47px;
+  padding: 10px;
+}
+#btn {
+  color: white;
+  width: 116px;
+  height: 47px;
+  background: rgba(11, 13, 123, 1);
+  border: none;
+}
+
+.copyright > h1 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  padding: 40px; 
+}

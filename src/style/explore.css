@@ -1,0 +1,81 @@
+.navbar-explore {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px white solid;
+  padding: 10px 80px;
+}
+
+.navbar-explore > a {
+  text-decoration: none;
+}
+
+.navbar-explore > a > h1 {
+  font-size: 12px;
+  color: white;
+  transition: 1s;
+}
+
+.navbar-explore > a > h1:hover {
+  color: yellow;
+  transition: 1s;
+}
+
+.navbar-explore > img {
+  width: 10px;
+  height: 10px;
+}
+
+#navbar-h1 {
+  color: rgba(109, 111, 220, 1);
+  margin-right: 10px;
+}
+
+/* card tending */
+.explore-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px 80px 100px 80px;
+}
+
+.explore-card {
+  padding: 20px;
+  background-color: rgba(4, 4, 41, 1);
+  width: 280px;
+  color: white;
+  margin-bottom: 30px;
+  height: 360px;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.explore-card:hover {
+  margin-bottom: 20px;
+  margin-right: 10px;
+  transition: 1s;
+  box-shadow: 5px 10px 10px rgb(106, 187, 197);
+}
+
+.explore-card__img > img {
+  width: 240px;
+}
+
+.explore-card__text > h1 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 10px;
+}
+
+.explore-card__text > h2 {
+  color: #6d6fdc;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.explore-card__text > h3 {
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 10px;
+}
