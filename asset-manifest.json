@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NFTThermos/static/css/main.4e1933f3.css",
+    "main.js": "/NFTThermos/static/js/main.160143c3.js",
+    "static/media/footerBg.png": "/NFTThermos/static/media/footerBg.5f3a1462c860d94ac2d1.png",
+    "static/media/backgroundHeader.png": "/NFTThermos/static/media/backgroundHeader.3a8c2ad45437972e3224.png",
+    "index.html": "/NFTThermos/index.html",
+    "main.4e1933f3.css.map": "/NFTThermos/static/css/main.4e1933f3.css.map",
+    "main.160143c3.js.map": "/NFTThermos/static/js/main.160143c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e1933f3.css",
+    "static/js/main.160143c3.js"
+  ]
+}
